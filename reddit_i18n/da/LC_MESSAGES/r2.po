@@ -106,31 +106,31 @@ msgstr ""
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
-msgstr ""
+msgstr "modtaget! "
 
 #: r2/controllers/api.py:1642
 msgid "claimed!"
-msgstr ""
+msgstr "modtaget!"
 
 #: r2/controllers/api.py:1658
 msgid "an email will be sent to that account's address shortly"
-msgstr "en email vil blive sendt til den brugers adresse i løbet af kort tid"
+msgstr "en email vil blive sendt til brugerens adresse i løbet af kort tid"
 
 #: r2/controllers/api.py:1660
 msgid "try again tomorrow"
-msgstr ""
+msgstr "prøv igen i morgen"
 
 #: r2/controllers/api.py:1905 r2/controllers/api.py:2066
 msgid "invalid css class"
-msgstr ""
+msgstr "ugyldig css class"
 
 #: r2/controllers/api.py:1908 r2/controllers/api.py:2069
 msgid "too many css classes"
-msgstr ""
+msgstr "for mange css classes"
 
 #: r2/controllers/api.py:2085
 msgid "max flair templates reached"
-msgstr ""
+msgstr "max flair skabeloner nået"
 
 #: r2/controllers/api.py:2303
 msgid "redirecting..."
@@ -167,7 +167,7 @@ msgstr "ja, det er okay!"
 
 #: r2/controllers/embed.py:67
 msgid "just read this first."
-msgstr "læs lige det her først."
+msgstr "læs lige dette først."
 
 #: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:418
 #: r2/templates/frametoolbar.html:107
@@ -177,11 +177,11 @@ msgstr "hjælp"
 #: r2/controllers/error.py:114
 #, python-format
 msgid "forbidden (%(domain)s)"
-msgstr "forbudt ( %(domain)s )\t\t"
+msgstr "forbudt (%(domain)s)"
 
 #: r2/controllers/error.py:135
 msgid "this reddit has been banned"
-msgstr "denne reddit er blevet banned"
+msgstr "denne reddit er blevet bandlyst"
 
 #: r2/controllers/errors.py:27
 msgid "please login to do that"
@@ -213,23 +213,23 @@ msgstr "det brugernavn er allerede taget"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "det brugernavn er taget af en slettet konto"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "du kan ikke sende til en bruger du har blokeret"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
-msgstr "id mangler"
+msgstr "id ikke specificeret"
 
 #: r2/controllers/errors.py:37
 msgid "you can't do that"
-msgstr "det kan du ikke"
+msgstr "du kan ikke gøre dette"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "du er ikke logget ind som den bruger"
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
@@ -237,7 +237,7 @@ msgstr "linket du kommenterer på, er blevet slettet"
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
-msgstr "den kommentar er blevet slettet"
+msgstr "kommentaren er blevet slettet"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
@@ -286,8 +286,7 @@ msgstr "skriv venligst et brugernavn"
 #: r2/controllers/errors.py:53
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
-msgstr ""
-"det nummer er ikke indenfor det rigtige interval ( %(min)d to %(max)d )"
+msgstr "det nummer er ikke indenfor det rigtige interval (%(min)d to %(max)d)"
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
@@ -295,11 +294,8 @@ msgstr "ups! du brugte et tegn, som ikke kan bruges her"
 
 #: r2/controllers/errors.py:55
 #, python-format
-msgid ""
-"your bid must be at least $%(min)d per day and no more than to $%(max)d in "
-"total."
-msgstr ""
-"du skal byde mindst $ %(min)d per dag og ikke mere end $ %(max)d i det hele."
+msgid "your bid must be at least $%(min)d per day and no more than to $%(max)d in total."
+msgstr "du skal byde mindst $ %(min)d per dag og ikke mere end $%(max)d i det hele."
 
 #: r2/controllers/errors.py:56
 msgid "that link has already been submitted"
@@ -307,11 +303,11 @@ msgstr "det link er allerede blevet tilføjet"
 
 #: r2/controllers/errors.py:57
 msgid "that reddit already exists"
-msgstr "den reddit eksisterer allerede"
+msgstr "det reddit eksisterer allerede"
 
 #: r2/controllers/errors.py:58
 msgid "that reddit doesn't exist"
-msgstr "den reddit eksisterer ikke"
+msgstr "det reddit eksisterer ikke"
 
 #: r2/controllers/errors.py:59
 msgid "you aren't allowed to post there."
@@ -319,7 +315,7 @@ msgstr "du har ikke tilladelse til at publicere der."
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "du skal vælge et subreddit"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -328,11 +324,11 @@ msgstr "det navn vil ikke virke"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "du gør dette for meget. prøv igen om %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
-msgstr "din session session er udløbet"
+msgstr "din session er udløbet"
 
 #: r2/controllers/errors.py:64
 msgid "you must accept the terms first"
@@ -345,11 +341,11 @@ msgstr "den valgmulighed er ugyldig"
 #: r2/controllers/errors.py:70
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
-msgstr "følgende emails er ugyldige: %(emails)s\t"
+msgstr "følgende emails er ugyldige: %(emails)s"
 
 #: r2/controllers/errors.py:71
 msgid "please enter at least one email address"
-msgstr "skriv mindst én email adresse"
+msgstr "skriv venligst mindst én email adresse"
 
 #: r2/controllers/errors.py:72
 #, python-format
@@ -394,7 +390,7 @@ msgstr "kort problem: %(message)s"
 #: r2/controllers/errors.py:80
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
-msgstr "dette er for langt (max: %(max_length)s )"
+msgstr "det er for langt (max: %(max_length)s)"
 
 #: r2/controllers/errors.py:81
 msgid "we need something here"
@@ -402,19 +398,19 @@ msgstr "vi har brug for noget her"
 
 #: r2/controllers/errors.py:82
 msgid "we've never seen that code before"
-msgstr ""
+msgstr "vi har ikke set den kode før"
 
 #: r2/controllers/errors.py:83
 msgid "that code has already been claimed -- perhaps by you?"
-msgstr ""
+msgstr "koden er allerede taget -- måske af dig?"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr " "
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "det reddit tillader kun tekst "
 
 #: r2/controllers/errors.py:86
 msgid "that's a piece of history now; it's too late to reply to it"
@@ -422,7 +418,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
-msgstr ""
+msgstr "ugyldigt css navn"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
@@ -430,15 +426,15 @@ msgstr ""
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
-msgstr ""
+msgstr "ugyldigt client id"
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr ""
+msgstr "adgang nægtet af brugeren"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
-msgstr ""
+msgstr "bekræft venligst formularen"
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
@@ -454,35 +450,35 @@ msgstr ""
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
-msgstr ""
+msgstr "ingen kommentarer (endnu)"
 
 #: r2/controllers/front.py:306
 #, python-format
 msgid "all %d comments"
-msgstr ""
+msgstr "alle %d kommentarer"
 
 #: r2/controllers/front.py:308
 #, python-format
 msgid "top %d comments"
-msgstr ""
+msgstr "top %d kommentarer"
 
 #: r2/controllers/front.py:331
 #, python-format
 msgid "show all %d"
-msgstr ""
+msgstr "vis alle %d"
 
 #: r2/controllers/front.py:333
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "vis %d"
 
 #: r2/controllers/front.py:349
 msgid "create a reddit"
-msgstr "opret en reddit"
+msgstr "opret et reddit"
 
 #: r2/controllers/front.py:351 r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "opret et fællesskab"
 
 #: r2/controllers/front.py:529 r2/lib/menus.py:142
 msgid "awards"
@@ -527,41 +523,41 @@ msgstr "velkommen tilbage"
 
 #: r2/controllers/front.py:1042
 msgid "thanks"
-msgstr ""
+msgstr "tak"
 
 #: r2/controllers/front.py:1075 r2/controllers/front.py:1097
 #: r2/lib/menus.py:101 r2/templates/gold.html:83
 msgid "reddit gold"
-msgstr ""
+msgstr "reddit guld"
 
 #: r2/controllers/ipn.py:228
 msgid "nice try."
-msgstr ""
+msgstr "godt forsøg"
 
 #: r2/controllers/ipn.py:276
 msgid "the gold has been delivered!"
-msgstr ""
+msgstr "guldet er blevet leveret"
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
-msgstr ""
+msgstr "tak for at købe reddit guld"
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
-msgstr ""
+msgstr "tak for at købe credits"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr ""
+msgstr "for at bruge dem gå til [/gold](/gold) eller din favorit persons brugerside"
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
-msgstr ""
+msgstr "tak for at give reddit guld"
 
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "din gave til %s er blevet leveret."
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -643,7 +639,7 @@ msgstr "reddits"
 
 #: r2/controllers/listingcontroller.py:835
 msgid "reddits: "
-msgstr "reddits:"
+msgstr "reddits: "
 
 #: r2/controllers/listingcontroller.py:871
 msgid "comments"
@@ -651,7 +647,7 @@ msgstr "kommentarer"
 
 #: r2/controllers/oauth2.py:42
 msgid "My Identity"
-msgstr ""
+msgstr "Min identitet"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
@@ -707,7 +703,7 @@ msgstr "vælg venligst et land"
 
 #: r2/controllers/validator/validator.py:1492
 msgid "Our ToS don't cover your country (yet). Sorry."
-msgstr ""
+msgstr "Vores ToS dækker ikke dit land (endnu). Beklager."
 
 #: r2/controllers/validator/validator.py:1511
 msgid "credit card numbers should be 13 to 16 digits"
@@ -727,7 +723,7 @@ msgstr "hvis du har brug for backslashes, gør du det forkert"
 
 #: r2/lib/jsontemplates.py:302 r2/templates/usertext.html:55
 msgid "[removed]"
-msgstr ""
+msgstr "[fjernet]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
@@ -795,7 +791,7 @@ msgstr "bedste"
 
 #: r2/lib/menus.py:66
 msgid "saved {toolbar}"
-msgstr "gemte"
+msgstr "gemte {toolbar}"
 
 #: r2/lib/menus.py:68
 msgid "rising"
@@ -851,7 +847,7 @@ msgstr "indstillinger"
 
 #: r2/lib/menus.py:89
 msgid "blog"
-msgstr ""
+msgstr "blog"
 
 #: r2/lib/menus.py:90 r2/templates/utils.html:424
 msgid "logout"
@@ -859,11 +855,11 @@ msgstr "log ud"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr ""
+msgstr "kontakt os"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
-msgstr ""
+msgstr "firefox udvidelse"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
@@ -887,11 +883,11 @@ msgstr "butik"
 
 #: r2/lib/menus.py:100
 msgid "advertise"
-msgstr ""
+msgstr "reklamere"
 
 #: r2/lib/menus.py:102
 msgid "subreddits"
-msgstr ""
+msgstr "subreddits"
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:317
 msgid "options"
@@ -928,7 +924,7 @@ msgstr "sendt"
 
 #: r2/lib/menus.py:117
 msgid "comments {toolbar}"
-msgstr "kommentarer"
+msgstr "kommentarer {toolbar}"
 
 #: r2/lib/menus.py:119 r2/templates/prefoptions.html:272
 #: r2/templates/prefoptions.html:281 r2/templates/prefoptions.html:290
@@ -938,7 +934,7 @@ msgstr "detaljer"
 #: r2/lib/menus.py:120
 #, python-format
 msgid "other discussions (%(num)s)"
-msgstr "andre diskussioner ( %(num)s )"
+msgstr "andre diskussioner (%(num)s)"
 
 #: r2/lib/menus.py:121
 msgid "shirt"
@@ -958,12 +954,12 @@ msgstr "om"
 
 #: r2/lib/menus.py:127
 msgid "edit subscriptions"
-msgstr ""
+msgstr "rediger abonnementer"
 
 #: r2/lib/menus.py:128 r2/lib/pages/pages.py:1032
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
-msgstr ""
+msgstr "fællesskab indstillinger"
 
 #: r2/lib/menus.py:129
 msgid "edit moderators"
@@ -979,11 +975,11 @@ msgstr "rediger godkendte bidragydere"
 
 #: r2/lib/menus.py:132 r2/lib/menus.py:133 r2/lib/pages/pages.py:2755
 msgid "ban users"
-msgstr "ban brugere"
+msgstr "bandlys brugere"
 
 #: r2/lib/menus.py:134
 msgid "edit user flair"
-msgstr ""
+msgstr "rediger bruger flair"
 
 #: r2/lib/menus.py:136
 msgid "popular"
@@ -1053,7 +1049,7 @@ msgstr "nedstemt"
 
 #: r2/lib/menus.py:156
 msgid "hidden {toolbar}"
-msgstr "skjulte"
+msgstr "skjulte {toolbar}"
 
 #: r2/lib/menus.py:158 r2/templates/printablebuttons.html:58
 msgid "reported"
@@ -1077,15 +1073,15 @@ msgstr "alle promoverede links"
 
 #: r2/lib/menus.py:164
 msgid "unseen"
-msgstr ""
+msgstr "usete"
 
 #: r2/lib/menus.py:165
 msgid "roadblock"
-msgstr ""
+msgstr "vejspærring"
 
 #: r2/lib/menus.py:166
 msgid "analytics"
-msgstr "analyse"
+msgstr "analyser"
 
 #: r2/lib/menus.py:167
 msgid "live"
@@ -1309,7 +1305,7 @@ msgstr "du skal logge ind eller oprette en bruger for at gøre dette"
 
 #: r2/lib/strings.py:74
 msgid "(don't worry, it only takes a few seconds)"
-msgstr ""
+msgstr "(bare rolig, der tager kun få sekunder)"
 
 #: r2/lib/strings.py:76
 #, python-format
@@ -1330,7 +1326,7 @@ msgstr ""
 msgid ""
 "to view reddit with only submissions from your friends, use [reddit.com/r/"
 "friends](%s)"
-msgstr ""
+msgstr "for kun at se indlæg fra dine venner, brug [reddit.com/r/friends](%s)"
 
 #: r2/lib/strings.py:82
 msgid "your reddit has been created"
@@ -1353,12 +1349,12 @@ msgstr ""
 #: r2/lib/strings.py:86
 #, python-format
 msgid "visit [%(link)s](%(link)s) for more information"
-msgstr ""
+msgstr "gå til [%(link)s](%(link)s) for mere information"
 
 #: r2/lib/strings.py:90
 #, python-format
 msgid "you have been added as a moderator to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "du er blevet tilføjet som moderator til [%(title)s](%(url)s)."
 
 #: r2/lib/strings.py:91
 #, python-format
@@ -1387,11 +1383,11 @@ msgstr ""
 
 #: r2/lib/strings.py:100
 msgid "you've been banned"
-msgstr "du er blevet banned"
+msgstr "du er blevet bandlyst"
 
 #: r2/lib/strings.py:101
 msgid "you can view traffic on a promoted link"
-msgstr ""
+msgstr "du kan se traffik på et promoveret link"
 
 #: r2/lib/strings.py:105
 msgid "you have not subscribed to any reddits."
@@ -1420,12 +1416,13 @@ msgstr ""
 msgid ""
 "you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you "
 "can also search within [all reddits](%(all_reddits_link)s)"
-msgstr ""
+msgstr "du søger indenfor [%(reddit_name)s](%(reddit_link)s). du kan også"
+"søge indenfor [all reddits](%(all_reddits_link)s)"
 
 #: r2/lib/strings.py:117
 #, python-format
 msgid "\"%(brokenurl)s\" is not a valid URL"
-msgstr ""
+msgstr "\"%(brokenurl)s\" er ikke et gyldigt URL"
 
 #: r2/lib/strings.py:118
 #, python-format
