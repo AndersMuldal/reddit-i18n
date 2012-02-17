@@ -98,11 +98,11 @@ msgstr "fejl i billednavn"
 #: r2/controllers/api.py:1199
 #, python-format
 msgid "too many images (you only get %d)"
-msgstr "for mange billeder (du har kun %d)"
+msgstr "for mange billeder (du får kun %d)"
 
 #: r2/controllers/api.py:1207
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "Ugyldigt billed eller almindelig billed fejl"
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
@@ -390,7 +390,7 @@ msgstr "kort problem: %(message)s"
 #: r2/controllers/errors.py:80
 #, python-format
 msgid "this is too long (max: %(max_length)s)"
-msgstr "det er for langt (max: %(max_length)s)"
+msgstr "dette er for langt (max: %(max_length)s)"
 
 #: r2/controllers/errors.py:81
 msgid "we need something here"
@@ -406,7 +406,7 @@ msgstr "koden er allerede taget -- måske af dig?"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr " "
+msgstr "det reddit tillader ikke tekst poster "
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
@@ -414,7 +414,7 @@ msgstr "det reddit tillader kun tekst "
 
 #: r2/controllers/errors.py:86
 msgid "that's a piece of history now; it's too late to reply to it"
-msgstr ""
+msgstr "Det er for sent at svare til dette; det er nu bare historie"
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
@@ -422,7 +422,7 @@ msgstr "ugyldigt css navn"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
-msgstr ""
+msgstr "for mange flair css classes"
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
@@ -446,7 +446,7 @@ msgstr "hjælp med at oversætte"
 
 #: r2/controllers/front.py:121
 msgid "self service help"
-msgstr ""
+msgstr "Selvbetjeningshjælp"
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
@@ -548,7 +548,7 @@ msgstr "tak for at købe credits"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr "for at bruge dem gå til [/gold](/gold) eller din favorit persons brugerside"
+msgstr "for at bruge dem gå til [/gold](/gold) eller din yndlingspersons brugerside"
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
@@ -831,7 +831,7 @@ msgstr "spam"
 
 #: r2/lib/menus.py:81
 msgid "autobanned"
-msgstr "autobanned"
+msgstr "autobandlyst"
 
 #: r2/lib/menus.py:84
 msgid "turn admin on"
@@ -1020,7 +1020,7 @@ msgstr "anmeldte links"
 
 #: r2/lib/menus.py:148
 msgid "reported authors"
-msgstr "anmeldte skibenter"
+msgstr "anmeldte skribenter"
 
 #: r2/lib/menus.py:149
 msgid "info"
@@ -1123,43 +1123,43 @@ msgstr[1] "dage"
 
 #: r2/lib/rand_strings.py:3
 msgid "Funny 500 page message 1"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 1"
 
 #: r2/lib/rand_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 2"
 
 #: r2/lib/rand_strings.py:5
 msgid "Funny 500 page message 3"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 3"
 
 #: r2/lib/rand_strings.py:6
 msgid "Funny 500 page message 4"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 4"
 
 #: r2/lib/rand_strings.py:7
 msgid "Funny 500 page message 5"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 5"
 
 #: r2/lib/rand_strings.py:8
 msgid "Funny 500 page message 6"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 6"
 
 #: r2/lib/rand_strings.py:9
 msgid "Funny 500 page message 7"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 7"
 
 #: r2/lib/rand_strings.py:10
 msgid "Funny 500 page message 8"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 8"
 
 #: r2/lib/rand_strings.py:11
 msgid "Funny 500 page message 9"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 9"
 
 #: r2/lib/rand_strings.py:12
 msgid "Funny 500 page message 10"
-msgstr ""
+msgstr "Sjovt 500 side anmeddelse 10"
 
 #: r2/lib/rand_strings.py:13
 msgid "Reason to create a reddit 1"
@@ -1293,7 +1293,8 @@ msgstr ""
 msgid ""
 "that link has been submitted to multiple reddits. you can try to [submit it "
 "again](%s)."
-msgstr ""
+msgstr "Det link er allerede indsent til flere reddits. Du kan prove at [submit it "
+"again](%s)."
 
 #: r2/lib/strings.py:71
 msgid "your account has been deleted, but we won't judge you for it."
@@ -1312,7 +1313,8 @@ msgstr "(bare rolig, der tager kun få sekunder)"
 msgid ""
 "Log in or register to connect your reddit account with [%(app_name)s]"
 "(%(app_about_url)s)."
-msgstr ""
+msgstr "Log ind eller oprette en bruger for at tilslutte dit reddit konto til [%(app_name)s]"
+"(%(app_about_url)s)."
 
 #: r2/lib/strings.py:78
 #, python-format
